@@ -1,0 +1,195 @@
+
+body {
+    background-color: #F0E68C; /* khaki */
+    font-family: Arial, sans-serif;
+    color: #333; /* Dark text for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8B4513; /* saddle brown */
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+nav {
+    background-color: #A0522D; /* sienna */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #8B4513; /* saddle brown */
+}
+
+main {
+    background-color: #FFF8DC; /* cornsilk */
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: #FFF8DC; /* cornsilk */
+    padding: 10px;
+    border: 1px solid #8B4513; /* saddle brown */
+    border-radius: 5px;
+}
+
+section h2 {
+    margin-top: 0;
+    font-size: 2em;
+    color: #8B4513; /* saddle brown */
+}
+
+footer {
+    background-color: #A0522D; /* sienna */
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
+
+body {
+    background-color: #F0E68C; /* khaki */
+    font-family: Arial, sans-serif;
+    color: #333; /* Dark text for contrast */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #8B4513; /* saddle brown */
+    padding: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+
+nav {
+    background-color: #A0522D; /* sienna */
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background-color: #8B4513; /* saddle brown */
+}
+
+
+main {
+    background-color: #FFF8DC; /* cornsilk */
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+    background-color: #FFF8DC; /* cornsilk */
+    padding: 10px;
+    border: 1px solid #8B4513; /* saddle brown */
+    border-radius: 5px;
+}
+
+section h2 {
+    margin-top: 0;
+    font-size: 2em;
+    color: #8B4513; /* saddle brown */
+}
+
+
+footer {
+    background-color: #A0522D; /* sienna */
+    padding: 10px;
+    text-align: center;
+    color: #fff;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Media Queries */
+
+
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.5em;
+    }
+
+    nav a {
+        padding: 5px 10px;
+    }
+
+    section h2 {
+        font-size: 1.5em;
+    }
+
+    main {
+        padding: 10px;
+    }
+}
+
+
+@media (min-width: 600px) and (max-width: 768px) {
+    header h1 {
+        font-size: 2em;
+    }
+
+    nav a {
+        padding: 8px 15px;
+    }
+
+    section h2 {
+        font-size: 1.75em;
+    }
+
+    main {
+        padding: 15px;
+    }
+}
+
+
+@media (min-width: 769px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+
+    nav a {
+        padding: 10px 20px;
+    }
+
+    section h2 {
+        font-size: 2em;
+    }
+
+    main {
+        padding: 20px;
+    }
+}
+
