@@ -1,0 +1,33 @@
+/* Apply black background with white text to the header */
+header {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for header image to fit within header */
+header img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Keep the rest of the page with a white background and black text */
+body {
+    background-color: white;
+    color: black;
+}
+
+/* Optional: Style the main container to add padding for readability */
+main.container {
+    padding: 20px;
+}
+
+/* Styling footer text alignment and color */
+footer {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    font-size: 0.9em;
+}
