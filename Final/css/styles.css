@@ -1,4 +1,9 @@
 /* General Styles */
+.article-container {
+  max-width: 800px; /* Adjust width as needed */
+  margin: 0 auto; /* Center content horizontally */
+  padding: 20px; /* Add padding inside the container */
+}
 body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
@@ -59,11 +64,7 @@ body {
   
   a:hover {
     text-decoration: underline;
-    .center-video {
-        display: flex;
-        justify-content: center;
-        margin: 20px 0; /* Adjust as needed */
-      }
+   
       
   }
   
